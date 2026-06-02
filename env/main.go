@@ -11,7 +11,7 @@ import (
 func loadENV() error {
 	err := godotenv.Load()
 	if err != nil {
-		log.Fatal("Error load eviroment:", err)
+		log.Fatal("Error loading environment:", err)
 	}
 
 	return nil
